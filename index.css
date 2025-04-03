@@ -1,0 +1,125 @@
+Centering the content properly
+html, body {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center; /* Centers horizontally */
+    align-items: center; /* Centers vertically */
+    /* background-color: #f4f4f4; */
+    /* background-image: url(.images/11476232.jpg); */
+    background-image: url(images/11476232.jpg);
+    background-size: cover; /* Ensures full coverage */
+    background-position: center; /* Centers the image */
+    background-repeat: no-repeat; /* Prevents tiling */
+    padding-right: 10%;
+    /* background: linear-gradient(to right, #004d7a, #008793, #00bf72, #a8eb12); */
+
+
+}
+
+html::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    /* background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3));  */
+    z-index: -1; /* Ensures it stays behind content */
+}
+
+
+/* Wrapper - Now properly centered */
+#wrapper {
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Centering the heading properly */
+#wrapper h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: green;
+}
+
+/* Container remains styled and centered */
+.container {
+    background-color: teal;
+    width: 100%;
+    padding: 50px;
+    box-shadow: 0 0 15px rgb(53, 33, 53);
+    text-align: center;
+}
+
+/* Box shadow hover effect */
+.container:hover {
+    box-shadow: 0 0 15px rgb(53, 33, 53);
+    transition: 1s;
+}
+
+/* Input fields */
+#ipt {
+    width: 80%;
+    font-size: 18px;
+    border: 1px solid red;
+    border-radius: 5px;
+    padding: 10px;
+    text-align: center;
+}
+
+/* Submit button */
+#inpxxt {
+    font-size: 12px;
+    border-radius: 5px;
+    width: 80px;
+    padding: 10px;
+    cursor: pointer;
+    background-color: rgb(199, 144, 4);
+    border: none;
+    color: white;
+    font-size: 15px;
+}
+
+#inpxxt:hover {
+    background-color: blue;
+    color: white;
+}
+
+
+/* Other buttons */
+#float, #back, #edit {
+    font-size: 14px;
+    background-color: rgb(242, 242, 248);
+    color: rgb(5, 3, 3);
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+    margin: 5px;
+}
+
+/* Hover effects */
+#float:hover {
+    background-color: brown;
+    color: white;
+}
+
+#back:hover {
+    background-color: red;
+    color: white;
+}
+
+#edit:hover {
+    background-color: green;
+    color: white;
+}
+
+/* Aligning buttons */
+.align {
+    text-align: center;
+    margin-top: 10px;
+}
