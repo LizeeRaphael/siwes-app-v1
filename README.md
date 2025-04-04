@@ -19,3 +19,9 @@ MySQL database for storing data
 
 License
 This project is licensed under the MIT License.
+
+**Status**
+The app is still being worked on, and features may change.
+
+The README and documentation will be updated as the app evolves.
+
