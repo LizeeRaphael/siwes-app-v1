@@ -9,16 +9,6 @@ Store Information Digitally: Keep a digital record of work hours, tasks, and ach
 
 Easy-to-Use Interface: User-friendly design for students to quickly update their information.
 
-Getting Started
-To use the app locally, download the project files and place them in your PHP server’s directory (e.g., XAMPP's htdocs).
-
-Prerequisites
-PHP server (e.g., XAMPP)
-
-MySQL database for storing data
-
-License
-This project is licensed under the MIT License.
 
 **Status**
 The app is still being worked on, and features may change.
